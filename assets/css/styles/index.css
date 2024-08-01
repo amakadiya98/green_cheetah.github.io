@@ -13,6 +13,8 @@ body {
 
 /* globel css */
 
+
+
 .section-common-spacing {
     padding: 220px 0;
 }
@@ -129,6 +131,7 @@ body {
     text-align: center;
     border-radius: 10px;
     border: 2px solid var(--green);
+    transition: 0.3s ease !important;
 }
 
 .header-section .header-btn button:hover {
@@ -146,6 +149,7 @@ body {
     text-align: center;
     border-radius: 10px;
     border: 2px solid var(--green);
+    transition: 0.3s ease !important;
     margin-right: 14px;
 }
 
@@ -297,6 +301,7 @@ body {
     background: linear-gradient(90deg, #00BCFD 0%, #23D2B5 100%);
     cursor: pointer;
     z-index: 1;
+    transition: 0.3s ease !important;
 }
 
 .login-banner-section .login-btn::before {
@@ -524,6 +529,7 @@ body {
     font-weight: 600;
     text-align: center;
     box-shadow: 0px 46px 52px 0px #36B8A2;
+    transition: 0.3s ease !important;
 }
 
 .login-section .login-btn button:hover {
@@ -557,6 +563,7 @@ body {
     padding: 35px 60px;
     position: relative;
     overflow: hidden;
+    cursor: pointer;
 
 }
 
@@ -1050,6 +1057,7 @@ body {
     line-height: 18px;
     text-align: center;
     color: #fff;
+    transition: 0.3s ease !important;
 }
 
 .footer-section .coppy-right {
@@ -1066,14 +1074,358 @@ body {
     margin-bottom: 0;
 }
 
+
+
+/* FORM SECTION  */
+.form-section{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    overflow-x: hidden;
+}
+
+.form-section .left-part {
+    padding: 70px 0;
+    width: 70%;
+}
+
+.form-section .go-back-section p {
+    margin: 0;
+    font-family: 'Inter';
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 20px;
+    text-align: left;
+}
+.form-section .go-back-login p {
+    margin: 0;
+    font-family: 'Inter';
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 20px;
+    text-align: left;
+}
+
+.form-section .form-heading-part {
+    margin-top: 50px;
+}
+
+.form-section .form-heading-part .form-heading {
+    background: linear-gradient(90deg, #00BCFD 0%, #23D2B5 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-family: "Inter";
+    font-size: 48px;
+    font-weight: 700;
+    text-align: left;
+}
+
+.form-section .form-heading-part .form-text {
+    font-family: 'Inter';
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 27px;
+    text-align: left;
+    color: #718096;
+    /* margin-top: 30px; */
+}
+
+.form-section .form-part .input-section {
+    display: flex;
+    flex-direction: column;
+    margin-top: 28px;
+}
+
+.form-section .form-part .form-label {
+    font-family: 'Inter';
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 20px;
+    text-align: left;
+    color: #718096;
+}
+
+.form-section .form-part .form-input {
+    padding: 18px 12px;
+    box-shadow: 0px 2px 0px 0px #E7EBEE33 inset;
+    border: 1px solid #CBD5E0;
+    background-color: #F7FAFC;
+    border-radius: 12px;
+    margin-top: 14px;
+    font-family: 'Inter';
+    font-size: 16px;
+    font-weight: 400;
+    text-align: left;
+    color: #A0A5AD;
+
+}
+.form-section .go-back-login{
+    text-decoration: none;
+    color: var(--black);
+    cursor: pointer;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    gap: 10px;
+}
+
+.password-input-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 12px !important;
+}
+
+.form-input .password-input {
+    background-color: transparent;
+    border: none;
+    color: #A0A5AD;
+    width: 100%;
+}
+
+.form-input .eye-icon-container {
+    cursor: pointer;
+    padding: 8px 8px 8px 16px;
+    border-left: 1px solid #CBD5E0;
+}
+
+.form-section .check-box-input {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.form-section .check-box-input .form-check-label {
+    font-family: 'Inter';
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 39px;
+    text-align: left;
+    margin: 0;
+}
+
+.form-section .checkbox-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 48px;
+}
+
+.form-section .checkbox-row a {
+    font-family: 'Inter';
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    text-align: left;
+    color: var(--primary-text);
+}
+
+.form-section .signin-btn {
+    width: 100%;
+    font-family: 'Inter';
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 28px;
+    text-align: center;
+    background-color: var(--green);
+    border: none;
+    border-radius: 20px;
+    padding: 16px 0px;
+    color: var(--white);
+    margin-top: 40px;
+    border: 2px solid var(--green);
+    transition: all 0.3s;
+}
+
+.form-section .signin-btn:hover {
+    background-color: var(--white);
+    color: var(--green);
+}
+
+.form-section .get-app-part {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+
+.form-section .get-app-part hr {
+    width: 35%;
+    border: 1px solid #A0AEC0;
+}
+
+.form-section .get-app-mobile-part {
+    display: none;
+    margin-top: 34px;
+}
+
+.form-section .get-app-mobile-part a {
+    margin: auto;
+    font-family: 'DM Sans';
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 40px;
+    letter-spacing: -0.01em;
+    text-align: left;
+    color: #00AAFF;
+}
+.form-section .go-back-section{
+        text-decoration: none;
+        color: var(--black);
+        cursor: pointer;
+        display: flex;
+        justify-content: left;
+        align-items: center;
+        gap: 10px;
+}
+
+.form-section .get-app-part p {
+    font-family: "Inter";
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 20px;
+    text-align: center;
+    color: #718096;
+    margin: 0px;
+}
+
+.form-section .download-btn {
+    border-radius: 30px;
+    border: 1px solid #CBD5E0;
+    display: flex;
+    padding: 13px 22px;
+    margin-top: 46px;
+    background-color: transparent;
+    width: 100%;
+    transition: all 0.3s;
+}
+
+.form-section .download-btn:hover {
+    background-color: var(--green);
+}
+
+.form-section .download-btn:hover p {
+    color: var(--white);
+}
+
+.form-section .download-btn img {
+    width: 33px;
+    height: 33px;
+}
+
+.form-section .download-btn p {
+    width: 90%;
+    text-align: center;
+    margin: auto;
+    font-family: 'Inter';
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 28px;
+    color: #67728A;
+}
+
+input::placeholder {
+    color: #A0A5AD;
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 400;
+    text-align: left;
+}
+
+
+input:focus {
+    outline: none;
+}
+
+.form-section .branding-part {
+    background-color: #47D5AA;
+    width: 100%;
+    height: 100vh;
+    min-height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    z-index: 1;
+    overflow: hidden;
+    padding: 0 50px;
+}
+
+
+.form-section .form-bg-design::after {
+    z-index: -1;
+    overflow: hidden;
+    position: absolute;
+    content: "";
+    background-image: url(../../images/form-vector1.svg);
+    background-size: contain;
+    top: -76%;
+    left: -26%;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100%;
+}
+
+
+.form-section .form-bg-design::before {
+    z-index: -2;
+    overflow: hidden;
+    position: absolute;
+    content: "";
+    background: linear-gradient(to bottom, #FFFFFF 58%, transparent 50%);
+    top: -14%;
+    right: -57%;
+    width: 800px;
+    height: 800px;
+    border-radius: 50%;
+    opacity: 0.1;
+}
+
+.form-section .form-bg-design2::after {
+    z-index: -1;
+    overflow: hidden;
+    position: absolute;
+    content: "";
+    background-image: url(../../images/form-vector2.svg);
+    background-size: contain;
+    bottom: -50%;
+    left: 32%;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100%;
+}
+
+
 /* media  */
 
 
 @media screen and (max-width: 1200px) {
-.objective-section .objective-text-part .section-title h2 {
-    font-size: 35px;
+    .objective-section .objective-text-part .section-title h2 {
+        font-size: 35px;
+    }
 }
 
+@media screen and (max-width: 1445px) {
+    .form-section .branding-part img {
+        width: 100%;
+    }
+
+    .form-section .form-bg-design::before {
+        top: -24%;
+        right: -86%;
+    }
+
+    .form-section .form-bg-design::after {
+        top: -55%;
+        left: -26%;
+    }
+
+    .form-section .form-bg-design2::after {
+        bottom: -65%;
+        left: 32%;
+    }
 }
 
 @media screen and (max-width: 1024px) {
@@ -1342,6 +1694,14 @@ body {
         flex-direction: column;
     }
 
+
+    /* form part */
+    .form-section .branding-part {
+        display: none;
+    }
+
+   
+
 }
 
 
@@ -1468,13 +1828,58 @@ body {
 
 
 @media screen and (max-width:520px) {
-    .carousel-section .carosel-part1, .carosel-part3 {
+    .form-input .eye-icon-container {
+        display: none;
+    }
+    .password-input-container {
+        padding: 14px 12px !important;
+    }
+
+    .form-section .form-part .form-input {
+        padding: 15px 12px;
+    }
+    .form-section .checkbox-row {
+        flex-direction: column;
+        row-gap: 25px;
+        justify-content: left;
+        align-items: flex-start;
+    }
+
+    .form-section .signin-btn {
+        border-radius: 10px;
+    }
+
+    .form-section .form-heading-part .form-heading {
+        font-size: 40px;
+    }
+
+    .form-section .left-part {
+        padding: 60px 0px;
+        width: 85%;
+    }
+
+    .form-section .form-heading-part {
+        margin-top: 60px;
+    }
+
+    .form-section .get-app-desktop-part {
+        display: none;
+    }
+
+    .form-section .get-app-mobile-part {
+        display: flex;
+        justify-content: center;
+    }
+
+    .carousel-section .carosel-part1,
+    .carosel-part3 {
         padding: 74px 0px 28px 0px;
     }
 
     .login-banner-section .login-gradient-text {
         font-size: 30px;
     }
+
     .carousel-section .text-part .carousel-text {
         font-size: 25px;
     }
@@ -1482,6 +1887,7 @@ body {
     .section-title h2 {
         font-size: 35px;
     }
+
     .objective-section .objective-text-part .list-part li p {
         font-size: 16px;
     }
@@ -1591,6 +1997,7 @@ body {
         -webkit-background-clip: text;
         -webkit-text-fill-color: #17255F;
     }
+
     .objective-section .objective-text-part .section-title h2 {
         font-size: 35px;
     }

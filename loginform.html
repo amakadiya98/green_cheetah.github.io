@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./assets/css/bootstrapStyles/bootstrap.min.css" />
+    <link rel="stylesheet" href="./assets/css/styles/fonts.css" />
+    <link rel="stylesheet" href="./assets/css/styles/index.css" />
+</head>
+
+<body>
+    <section class="form-section">
+        <div class="row">
+            <div class="col-lg-7 d-flex justify-content-center align-items-center">
+                <div class="left-part">
+                    <a class="go-back-section" href="./index.html">
+                        <img src="./assets/images/leftArrow.svg" alt="left arrow image" />
+                        <p> Go Back</p>
+                    </a>
+                    <div class="form-heading-part">
+                        <h2 class="form-heading">
+                            Good to see you here!
+                        </h2>
+                        <p class="form-text">Sign in to green cheetah Academy and get started</p>
+                    </div>
+                    <div class="form-part">
+                        <div class="input-section">
+                            <label for="username" class="form-label">Username</label>
+                            <input type="text" id="username" class="form-input" name="username" placeholder="username here" required>
+                        </div>
+                        <div class="input-section">
+                            <label for="password" class="form-label">Password</label>
+                            <div class="form-input password-input-container">
+                                <input type="password" id="password" name="password" class="password-input" placeholder="Password here" required>
+                                <div class="eye-icon-container" id="togglePassword">
+                                    <img src="./assets/images/close-eye.svg" alt="eye icon" id="eyeIcon"/>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="checkbox-row">
+                            <div class="check-box-input">
+                                <input type="checkbox" id="rememberMe" class="form-check-label" name="rememberMe">
+                                <label for="rememberMe" class="form-label mb-0 ml-2">Remember me</label>
+                            </div>
+                            <div>
+                                <a href="./forgotpassword.html">Request New Password</a>
+                            </div>
+                        </div>
+
+                        <button class="signin-btn">Sign in</button>
+
+                        <div class="get-app-desktop-part">
+                            <div class="get-app-part">
+                                <hr/>
+                                <p>Get Mobile App</p>
+                                <hr/>
+                            </div>
+    
+                            <button class="download-btn">
+                                <img src="./assets/images/downlaod.svg" alt="download icon"/>
+                                <p>
+                                    Download Mobile App
+                                </p>
+                            </button>
+                        </div>
+
+                        <div class="get-app-mobile-part">
+                            <a>
+                                Download the mobile app
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-5">
+                <div class="branding-part">
+                    <div class="form-bg-design"></div>
+                    <img src="./assets/images/form-uganda-logo.svg" alt="logo">
+                    <div class="form-bg-design2"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+</body>
+<script src="./assets/js/index.js"></script>
+<script src="./assets/javascript/bootstrap.bundle.min.js"></script>
+
+</html>

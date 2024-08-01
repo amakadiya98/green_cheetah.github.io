@@ -18,12 +18,14 @@
     <header class="header-section">
         <nav class="navbar navbar-expand-lg">
             <div class="container">
-
                 <div class="brand-logo me-auto">
-                    <a href="./index.html"><img src="./assets/images/greencheetaLogo.svg" alt="allure logo"></a>
+                    <a href="./index.html"><img src="./assets/images/greencheetaLogo.svg" alt="logo"></a>
                 </div>
-                <div class="header-sm-btn ms-auto mb-2">
-                    <button>Login Now</button>
+                <div class="brand-sm-logo me-auto">
+                    <a href=""><img src="./assets/images/header-mobile-logo.svg" alt=""></a>
+                </div>
+                <div class="header-sm-btn ms-auto">
+                    <button>Log in</button>
                 </div>
                 <button class="navbar-toggler collapsed" type="button" data-bs-toggle="collapse"
                     data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
@@ -32,7 +34,7 @@
                 </button>
 
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                    <ul class="navbar-nav m-auto mb-2 mb-lg-0">
+                    <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
                         <li class="nav-item">
                             <a class="nav-link" id="welcome-nav" aria-current="page" href="#">Training</a>
                         </li>
@@ -43,14 +45,14 @@
                             <a class="nav-link" id="work-nav" href="./portfolio.html">Resources</a>
                         </li>
                     </ul>
+                    <div class="header-btn mb-2">
+                        <button>Login Now</button>
+                    </div>
                 </div>
-                <div class="header-btn ms-auto mb-2">
-                    <button>Login Now</button>
-                </div>
-
             </div>
         </nav>
     </header>
+
 
     <!-- CAROUSEL SECTION  -->
     <section class="carousel-section">
@@ -139,6 +141,36 @@
                 </div>
             </div>
         </div>
+
+        <!-- mobile  -->
+        <div class="carousel-mobile-section">
+            <div class="carosel-part1">
+                <div class="container">
+                    <div class="row justify-content-center align-items-center">
+                        <div class="col-12">
+                            <div class="text-part">
+                                <h2 class="carousel-heading">
+                                    Empower Your Sales Journey with Essential Skills
+                                </h2>
+
+                                <p class="carousel-text">
+                                    Master Selling & Credit Techniques, Differentiate Products, and Drive
+                                    Success
+                                </p>
+                            </div>
+                        </div>
+                        <div class="col-12">
+                            <div class="image-part">
+                                <div class="image-container">
+                                    <img src="./assets/images/carousel/carousel-img1.png"
+                                        alt="carousel image" />
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
     </section>
 
     <!-- LOGIN SECTION  -->
@@ -156,15 +188,14 @@
     <!-- OBJECTIVES SECTION  -->
     <section class="objective-section">
         <div class="container">
-            <div class="row align-items-center">
-                <div class="col-6">
+            <div class="objective-banner-section">
+           
                     <div class="objective-img-part">
                         <div class="image-container">
                             <img src="./assets/images/objective-part-img.png" alt="objective image" />
                         </div>
                     </div>
-                </div>
-                <div class="col-6">
+           
                     <div class="objective-text-part">
                         <div class="section-title">
                             <h2>Uganda Green Cheetahs Academy <span>objectives</span></h2>
@@ -187,8 +218,8 @@
                                 </li>
                                 <li>
                                     <p>
-                                        To equip sales agents with the necessary skills to leverage Sales and credit 
-                                        technology effectively and streamline their sales and credit  processes to
+                                        To equip sales agents with the necessary skills to leverage Sales and credit 
+                                        technology effectively and streamline their sales and credit  processes to
                                         improve customer repayments.
                                     </p>
                                 </li>
@@ -208,7 +239,7 @@
                             </ul>
                         </div>
                     </div>
-                </div>
+              
             </div>
         </div>
     </section>
@@ -248,7 +279,7 @@
             </div>
             <div class="card-container">
                 <div class="row all-card">
-                    <div class="col-md-6 card-part">
+                    <div class="col-lg-6 card-part">
                         <div class="card-content">
                             <div class="custom-card__content">
                                 <div class="card-number">
@@ -276,7 +307,7 @@
                             <div class="custom-card__fill"></div>
                         </div>
                     </div>
-                    <div class="col-md-6 card-part">
+                    <div class="col-lg-6 card-part">
                         <div class="card-content">
                             <div class="custom-card__content">
                                 <div class="card-number">
@@ -302,7 +333,7 @@
                             <div class="custom-card__fill"></div>
                         </div>
                     </div>
-                    <div class="col-md-6 card-part">
+                    <div class="col-lg-6 card-part">
                         <div class="card-content">
                             <div class="custom-card__content">
                                 <div class="card-number">
@@ -324,7 +355,7 @@
                             <div class="custom-card__fill"></div>
                         </div>
                     </div>
-                    <div class="col-md-6 card-part">
+                    <div class="col-lg-6 card-part">
                         <div class="card-content">
                             <div class="custom-card__content">
                                 <div class="card-number">
@@ -680,6 +711,7 @@
             </div>
         </div>
     </section>
+    
 
 
 
@@ -688,6 +720,7 @@
 
 
 </body>
+<script src="./assets/js/index.js"></script>
 <script src="./assets/js/jquery.js"></script>
 <script src="./assets/js/owl.carousel.min.js"></script>
 <script src="./assets/js/bootstrap.bundle.min.js"></script>
